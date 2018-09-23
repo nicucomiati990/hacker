@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Card from './components/card/Card';
 
 class App extends Component {
   render() {
@@ -10,7 +11,9 @@ class App extends Component {
             Evozon Solitaire
           </h1>
         </header>
-        <div className="main"></div>  
+        <div className="main">
+          <Card number="3" symbol="<3"/>
+        </div>  
       </div>
     );
   }
